@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Spark / Delta
+spark-warehouse/
+metastore_db/
+.derby.log
+
+# Data & outputs
+data/bronze/
+data/silver/
+data/gold/
+data/checkpoints/
+logs/
+models/
