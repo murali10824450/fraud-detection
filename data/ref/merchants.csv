@@ -1,0 +1,6 @@
+merchant_id,category,risk_score
+M1,Restaurant,0.02
+M2,Grocery,0.01
+M3,Electronics,0.08
+M4,Apparel,0.05
+M5,Other,0.03
