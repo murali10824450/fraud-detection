@@ -16,4 +16,4 @@ stream:
 	$(PY) -m src.ml.score_stream
 
 all: ingest silver gold train
-@echo "✅ Batch pipeline done; run 'make stream' for realtime scoring."
+	@echo "✅ Batch pipeline done; run 'make stream' for realtime scoring."
